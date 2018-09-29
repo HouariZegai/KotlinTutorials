@@ -1,12 +1,11 @@
 fun main(args: Array<String>) {
     var n : Int = 10
-
     // Assignment Operators
-    n += 30 // n = n + 30
+    n += 5 //n = n + 5
     println(n)
-    n -= 5
+    n -= 3 // n = n - 3
     println(n)
-    n *= 2 // n = n * 2
+    n *= 2
     println(n)
     n /= 2
     println(n)
@@ -16,11 +15,9 @@ fun main(args: Array<String>) {
     // Increment & Decrement Operators
     var num = 15
     num++
-    println(num)
+    println("Num: $num")
     num--
     println("Num: $num")
-
-    println("-----------")
-    println(num--)
+    println(--num)
     println(num)
 }
